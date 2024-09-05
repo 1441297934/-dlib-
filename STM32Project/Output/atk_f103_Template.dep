@@ -1,0 +1,35 @@
+Dependencies for Project 'atk_f103', Target 'Template': (DO NOT MODIFY !)
+F (..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Source\Templates\arm\startup_stm32f103xe.s)(0x668DFEBC)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_Template-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524" --pd "STM32F10X_HD SETA 1"--list ..\..\output\startup_stm32f103xe.lst --xref -o ..\..\output\startup_stm32f103xe.o --depend ..\..\output\startup_stm32f103xe.d)
+F (..\..\User\main.c)(0x668E0D19)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Drivers\SYSTEM\sys -I ..\..\Drivers\SYSTEM\usart -I ..\..\Drivers\SYSTEM\delay-I.\RTE\_Template-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\main.o --omf_browse ..\..\output\main.crf --depend ..\..\output\main.d)
+I (..\..\Drivers\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\..\Drivers\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\..\Drivers\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\Drivers\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\..\Drivers\SYSTEM\usart\usart.h)(0x550EB9F1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\..\Drivers\SYSTEM\delay\delay.h)(0x555AC61F)
+F (..\..\Drivers\SYSTEM\delay\delay.c)(0x555AC5E1)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Drivers\SYSTEM\sys -I ..\..\Drivers\SYSTEM\usart -I ..\..\Drivers\SYSTEM\delay-I.\RTE\_Template-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\delay.o --omf_browse ..\..\output\delay.crf --depend ..\..\output\delay.d)
+I (..\..\Drivers\SYSTEM\delay\delay.h)(0x555AC61F)
+I (..\..\Drivers\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\..\Drivers\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\..\Drivers\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\Drivers\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\..\Drivers\SYSTEM\sys\sys.c)(0x550EB960)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Drivers\SYSTEM\sys -I ..\..\Drivers\SYSTEM\usart -I ..\..\Drivers\SYSTEM\delay-I.\RTE\_Template-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\sys.o --omf_browse ..\..\output\sys.crf --depend ..\..\output\sys.d)
+I (..\..\Drivers\SYSTEM\sys\sys.h)(0x550EC367)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\stm32f10x.h)(0x5825386C)
+I (..\..\Drivers\CMSIS\Include\core_cm3.h)(0x6682AB90)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\Drivers\CMSIS\Include\cmsis_version.h)(0x6682AB90)
+I (..\..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x6682AB90)
+I (..\..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x6682AB90)
+I (C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include\system_stm32f10x.h)(0x5825386C)
+F (..\..\Drivers\SYSTEM\usart\usart.c)(0x5DD53595)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include -I ..\..\Drivers\CMSIS\Include -I ..\..\Drivers -I ..\..\User -I ..\..\Drivers\SYSTEM\sys -I ..\..\Drivers\SYSTEM\usart -I ..\..\Drivers\SYSTEM\delay-I.\RTE\_Template-IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DSTM32F10X_HD -DSTM32F103xE-o ..\..\output\usart.o --omf_browse ..\..\output\usart.crf --depend ..\..\output\usart.d)
+I (..\..\Drivers\SYSTEM\usart\usart.h)(0x550EB9F1)
+I (..\..\Drivers\SYSTEM\sys\sys.h)(0x550EC367)
+I (..\..\Drivers\SYSTEM\sys\stm32f10x.h)(0x4F1E2E3C)
+I (..\..\Drivers\SYSTEM\sys\core_cm3.h)(0x4D523B58)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\..\Drivers\SYSTEM\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
